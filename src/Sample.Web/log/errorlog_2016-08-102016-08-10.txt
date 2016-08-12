@@ -1,0 +1,203 @@
+2016-08-10 10:24:35,407 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:MyCommand  Partition:0 offset:0 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,423 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:MyCommand  Partition:0 offset:1 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,426 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:MyCommand  Partition:0 offset:2 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,428 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:MyCommand  Partition:0 offset:3 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,431 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:MyCommand  Partition:0 offset:4 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,434 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:MyCommand  Partition:0 offset:5 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,436 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:MyCommand  Partition:0 offset:6 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,440 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:MyCommand  Partition:0 offset:7 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,444 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:MyCommand  Partition:0 offset:8 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,526 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:1319 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,569 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:1320 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,582 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:1321 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,583 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3494 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,583 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3495 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,587 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3496 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,588 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:1322 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,591 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3497 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,594 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:1323 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,596 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3498 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,599 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:1324 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,619 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3499 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,790 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:1325 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,793 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3500 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,794 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:1326 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,798 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3501 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,800 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:1327 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:35,802 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3502 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:47,090 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:MyCommand  Partition:0 offset:9 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:24:47,095 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3503 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+

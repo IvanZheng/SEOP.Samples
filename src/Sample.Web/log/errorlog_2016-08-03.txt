@@ -1,0 +1,58 @@
+2016-08-03 00:00:01,530 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 429
+
+2016-08-03 00:00:04,213 ERROR SEOP.Framework.Infrastructure.ExceptionManager - System.NotImplementedException: The method or operation is not implemented.
+   at Sample.Domain.Model.Product.SEOP.Framework.Message.IMessageHandler<MyEvents.ProductReduced>.Handle(ProductReduced message) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\Classic.Sample\Sample.Domain\Model\Product.cs:line 46
+   at SEOP.Framework.Domain.AggregateRoot.HandleEvent[TDomainEvent](TDomainEvent event) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Domain\AggregateRoot.cs:line 57
+   at SEOP.Framework.Domain.AggregateRoot.OnEvent[TDomainEvent](TDomainEvent event) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Domain\AggregateRoot.cs:line 47
+   at Sample.Domain.Model.Product.ReduceCount(Int32 reduceCount) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\Classic.Sample\Sample.Domain\Model\Product.cs:line 41
+   at Sample.Application.Services.ProductService.<Handle>d__5.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\Classic.Sample\Sample.Application\Services\ProductService.cs:line 53
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at SEOP.Framework.Infrastructure.ExceptionManager.<ProcessAsync>d__1`1.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Infrastructure\ExceptionManager.cs:line 66
+
+2016-08-03 00:00:05,255 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE4232B has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 520
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 415
+
+2016-08-03 00:00:05,257 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE4232A has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 520
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 415
+
+2016-08-03 00:00:05,783 ERROR ZKRebalancerListener - Rebalance operation has been canceled externally by a future rebalance event. Exiting immediately
+
+2016-08-03 00:00:05,784 ERROR ZKRebalancerListener - Rebalance return false, will retry.  
+
+2016-08-03 00:00:06,780 ERROR ZKRebalancerListener - Rebalance operation has been canceled externally by a future rebalance event. Exiting immediately
+
+2016-08-03 00:00:06,780 ERROR ZKRebalancerListener - Rebalance return false, will retry.  
+
+2016-08-03 00:01:29,181 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 408
+
+2016-08-03 00:01:34,380 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE42331 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 520
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 415
+
+2016-08-03 00:01:34,504 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE42330 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 520
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 415
+
+2016-08-03 00:01:57,288 ERROR ZKRebalancerListener - Rebalance operation has been canceled externally by a future rebalance event. Exiting immediately
+
+2016-08-03 00:01:57,289 ERROR ZKRebalancerListener - Rebalance return false, will retry.  
+
+2016-08-03 00:01:58,353 ERROR ZKRebalancerListener - Rebalance operation has been canceled externally by a future rebalance event. Exiting immediately
+
+2016-08-03 00:01:58,354 ERROR ZKRebalancerListener - Rebalance return false, will retry.  
+

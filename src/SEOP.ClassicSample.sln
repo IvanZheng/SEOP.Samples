@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCommand", "MyCommand\MyCommand.csproj", "{530F0199-46A5-4A1C-ABC9-23B97E68F73E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCommandHandlers", "MyCommandHandlers\MyCommandHandlers.csproj", "{7C1D17DC-F54D-488C-9683-241222CE8411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEvents", "MyEvents\MyEvents.csproj", "{27BDDC62-FAB4-4CD2-ABB0-ADEDBFB7FB32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEventSubscribers", "MyEventSubscribers\MyEventSubscribers.csproj", "{ABA9BD0B-AAF2-439B-891E-934A4E8C9370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Application", "Sample.Application\Sample.Application.csproj", "{2ED66752-236E-42C4-94DA-1286DBC57502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Data", "Sample.Data\Sample.Data.csproj", "{35DBF53E-F1C2-4BB9-8517-1AECA57DB6EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Domain", "Sample.Domain\Sample.Domain.csproj", "{AE2B00C9-A7EB-4DBA-B96D-00D632FF9B3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Web", "Sample.Web\Sample.Web.csproj", "{40C7CD3E-65D3-440E-928F-FCA1C94C8320}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{530F0199-46A5-4A1C-ABC9-23B97E68F73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530F0199-46A5-4A1C-ABC9-23B97E68F73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530F0199-46A5-4A1C-ABC9-23B97E68F73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530F0199-46A5-4A1C-ABC9-23B97E68F73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C1D17DC-F54D-488C-9683-241222CE8411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1D17DC-F54D-488C-9683-241222CE8411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1D17DC-F54D-488C-9683-241222CE8411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1D17DC-F54D-488C-9683-241222CE8411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27BDDC62-FAB4-4CD2-ABB0-ADEDBFB7FB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BDDC62-FAB4-4CD2-ABB0-ADEDBFB7FB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BDDC62-FAB4-4CD2-ABB0-ADEDBFB7FB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BDDC62-FAB4-4CD2-ABB0-ADEDBFB7FB32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA9BD0B-AAF2-439B-891E-934A4E8C9370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA9BD0B-AAF2-439B-891E-934A4E8C9370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA9BD0B-AAF2-439B-891E-934A4E8C9370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA9BD0B-AAF2-439B-891E-934A4E8C9370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED66752-236E-42C4-94DA-1286DBC57502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED66752-236E-42C4-94DA-1286DBC57502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED66752-236E-42C4-94DA-1286DBC57502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED66752-236E-42C4-94DA-1286DBC57502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DBF53E-F1C2-4BB9-8517-1AECA57DB6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DBF53E-F1C2-4BB9-8517-1AECA57DB6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DBF53E-F1C2-4BB9-8517-1AECA57DB6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DBF53E-F1C2-4BB9-8517-1AECA57DB6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2B00C9-A7EB-4DBA-B96D-00D632FF9B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2B00C9-A7EB-4DBA-B96D-00D632FF9B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2B00C9-A7EB-4DBA-B96D-00D632FF9B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2B00C9-A7EB-4DBA-B96D-00D632FF9B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C7CD3E-65D3-440E-928F-FCA1C94C8320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C7CD3E-65D3-440E-928F-FCA1C94C8320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C7CD3E-65D3-440E-928F-FCA1C94C8320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C7CD3E-65D3-440E-928F-FCA1C94C8320}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://dev.istudy.sh.cn:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = MyCommand\\MyCommand.csproj
+		SccProjectName0 = MyCommand
+		SccAuxPath0 = http://dev.istudy.sh.cn:8080/tfs/defaultcollection
+		SccLocalPath0 = MyCommand
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = MyCommandHandlers\\MyCommandHandlers.csproj
+		SccProjectName1 = MyCommandHandlers
+		SccAuxPath1 = http://dev.istudy.sh.cn:8080/tfs/defaultcollection
+		SccLocalPath1 = MyCommandHandlers
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = MyEvents\\MyEvents.csproj
+		SccProjectName2 = MyEvents
+		SccAuxPath2 = http://dev.istudy.sh.cn:8080/tfs/defaultcollection
+		SccLocalPath2 = MyEvents
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = MyEventSubscribers\\MyEventSubscribers.csproj
+		SccProjectName3 = MyEventSubscribers
+		SccAuxPath3 = http://dev.istudy.sh.cn:8080/tfs/defaultcollection
+		SccLocalPath3 = MyEventSubscribers
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = Sample.Application\\Sample.Application.csproj
+		SccProjectName4 = Sample.Application
+		SccAuxPath4 = http://dev.istudy.sh.cn:8080/tfs/defaultcollection
+		SccLocalPath4 = Sample.Application
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName5 = Sample.Data\\Sample.Data.csproj
+		SccProjectName5 = Sample.Data
+		SccAuxPath5 = http://dev.istudy.sh.cn:8080/tfs/defaultcollection
+		SccLocalPath5 = Sample.Data
+		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName6 = Sample.Domain\\Sample.Domain.csproj
+		SccProjectName6 = Sample.Domain
+		SccAuxPath6 = http://dev.istudy.sh.cn:8080/tfs/defaultcollection
+		SccLocalPath6 = Sample.Domain
+		SccProvider6 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName7 = Sample.Web\\Sample.Web.csproj
+		SccProjectName7 = Sample.Web
+		SccAuxPath7 = http://dev.istudy.sh.cn:8080/tfs/defaultcollection
+		SccLocalPath7 = Sample.Web
+		SccProvider7 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

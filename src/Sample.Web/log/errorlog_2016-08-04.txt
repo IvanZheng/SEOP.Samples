@@ -1,0 +1,89 @@
+2016-08-04 19:48:56,270 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/04/2016 11:48:56
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 210
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/4 11:48:56
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131147849271157211
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-04 19:48:56,411 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/04/2016 11:48:56
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 210
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/4 11:48:56
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131147849271157211
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-04 19:48:56,650 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/04/2016 11:48:56
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 210
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/4 11:48:56
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131147849271157211
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-04 19:48:57,060 ERROR DefaultCallbackHandler - Failed to send messages after 3 tries. FailedProducerDatas not empty. Success Count:0 Failed Count: 1.
+================Failed sent message key: Topic: ECOEDU-IVAN-PC.ClassicApp.MyEvent Key: 
+================Failed Detail: Broker:-1,Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent PartitionID:1,Error:NotLeaderForPartitionCode Offset:0 	
+================ProduceDispatchSeralizeResult Internal exceptions: 1   0 th:No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent PartitionID:1     at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 210 KafkaNET.Library 
+ 
+
+2016-08-04 19:48:57,075 ERROR KafkaClient - Create topic ECOEDU-IVAN-PC.ClassicApp.MyEvent failed
+
+Kafka.Client.Producers.FailedToSendMessageException`1[System.String]: Failed to send messages after 3 tries. FailedProducerDatas not empty. Success Count:0 Failed Count: 1.
+================Failed sent message key: Topic: ECOEDU-IVAN-PC.ClassicApp.MyEvent Key: 
+================Failed Detail: Broker:-1,Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent PartitionID:1,Error:NotLeaderForPartitionCode Offset:0 	
+================ProduceDispatchSeralizeResult Internal exceptions: 1   0 th:No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent PartitionID:1     at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 210 KafkaNET.Library 
+ 
+   at Kafka.Client.Producers.DefaultCallbackHandler`2.Handle(IEnumerable`1 events) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 122
+   at Kafka.Client.Producers.Producer`2.Send(IEnumerable`1 data) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\Producer.cs:line 80
+   at Kafka.Client.Producers.Producer`2.Send(ProducerData`2 data) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\Producer.cs:line 97
+   at SEOP.MessageQueue.MSKafka.KafkaClient.CreateTopic(String topic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\SEOP.MessageQueue.Kafka\KafkaClient.cs:line 91

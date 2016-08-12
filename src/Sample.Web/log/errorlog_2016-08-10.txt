@@ -1,0 +1,616 @@
+2016-08-10 09:30:48,827 ERROR SEOP.Framework.Command.Impl.CommandConsumer - {"ProductId":"00000000-0000-0000-0000-000000000000","ReduceCount":1,"ID":"57AA83C83C6111CF2CE539AA","Key":null,"NeedRetry":true}
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyCommandHandlers.MyCommandHandler.<Handle>d__6.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\Classic.Sample\MyCommandHandlers\MyCommandHandler.cs:line 39
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CallSite.Target(Closure , CallSite , Object )
+   at SEOP.Framework.Command.Impl.CommandConsumer.<ConsumeMessage>d__18.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Command\Impl\CommandConsumer.cs:line 143
+2016-08-10 09:30:48,842 ERROR SEOP.Framework.Infrastructure.ExceptionManager - System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at SEOP.Framework.Command.CommandBusExtension.<ExecuteAsync>d__0.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Command\CommandBusExtension.cs:line 15
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at SEOP.Framework.Infrastructure.ExceptionManager.<ProcessAsync>d__1`1.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Infrastructure\ExceptionManager.cs:line 66
+
+2016-08-10 09:30:49,960 ERROR SEOP.Framework.Command.Impl.CommandConsumer - {"ProductId":"00000000-0000-0000-0000-000000000000","ReduceCount":1,"ID":"57AA83C93C6111CF2CE539AE","Key":null,"NeedRetry":true}
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyCommandHandlers.MyCommandHandler.<Handle>d__6.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\Classic.Sample\MyCommandHandlers\MyCommandHandler.cs:line 39
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CallSite.Target(Closure , CallSite , Object )
+   at SEOP.Framework.Command.Impl.CommandConsumer.<ConsumeMessage>d__18.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Command\Impl\CommandConsumer.cs:line 143
+2016-08-10 09:30:49,965 ERROR SEOP.Framework.Infrastructure.ExceptionManager - System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at SEOP.Framework.Command.CommandBusExtension.<ExecuteAsync>d__0.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Command\CommandBusExtension.cs:line 15
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at SEOP.Framework.Infrastructure.ExceptionManager.<ProcessAsync>d__1`1.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Infrastructure\ExceptionManager.cs:line 66
+
+2016-08-10 09:30:50,176 ERROR SEOP.Framework.Command.Impl.CommandConsumer - {"ProductId":"00000000-0000-0000-0000-000000000000","ReduceCount":1,"ID":"57AA83CA3C6111CF2CE539B2","Key":null,"NeedRetry":true}
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyCommandHandlers.MyCommandHandler.<Handle>d__6.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\Classic.Sample\MyCommandHandlers\MyCommandHandler.cs:line 39
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CallSite.Target(Closure , CallSite , Object )
+   at SEOP.Framework.Command.Impl.CommandConsumer.<ConsumeMessage>d__18.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Command\Impl\CommandConsumer.cs:line 143
+2016-08-10 09:30:50,180 ERROR SEOP.Framework.Infrastructure.ExceptionManager - System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at SEOP.Framework.Command.CommandBusExtension.<ExecuteAsync>d__0.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Command\CommandBusExtension.cs:line 15
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at SEOP.Framework.Infrastructure.ExceptionManager.<ProcessAsync>d__1`1.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Infrastructure\ExceptionManager.cs:line 66
+
+2016-08-10 09:30:50,342 ERROR SEOP.Framework.Command.Impl.CommandConsumer - {"ProductId":"00000000-0000-0000-0000-000000000000","ReduceCount":1,"ID":"57AA83CA3C6111CF2CE539B6","Key":null,"NeedRetry":true}
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyCommandHandlers.MyCommandHandler.<Handle>d__6.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\Classic.Sample\MyCommandHandlers\MyCommandHandler.cs:line 39
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CallSite.Target(Closure , CallSite , Object )
+   at SEOP.Framework.Command.Impl.CommandConsumer.<ConsumeMessage>d__18.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Command\Impl\CommandConsumer.cs:line 143
+2016-08-10 09:30:50,346 ERROR SEOP.Framework.Infrastructure.ExceptionManager - System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at SEOP.Framework.Command.CommandBusExtension.<ExecuteAsync>d__0.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Command\CommandBusExtension.cs:line 15
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at SEOP.Framework.Infrastructure.ExceptionManager.<ProcessAsync>d__1`1.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Infrastructure\ExceptionManager.cs:line 66
+
+2016-08-10 09:30:50,470 ERROR SEOP.Framework.Command.Impl.CommandConsumer - {"ProductId":"00000000-0000-0000-0000-000000000000","ReduceCount":1,"ID":"57AA83CA3C6111CF2CE539BA","Key":null,"NeedRetry":true}
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyCommandHandlers.MyCommandHandler.<Handle>d__6.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\Classic.Sample\MyCommandHandlers\MyCommandHandler.cs:line 39
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CallSite.Target(Closure , CallSite , Object )
+   at SEOP.Framework.Command.Impl.CommandConsumer.<ConsumeMessage>d__18.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Command\Impl\CommandConsumer.cs:line 143
+2016-08-10 09:30:50,474 ERROR SEOP.Framework.Infrastructure.ExceptionManager - System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at SEOP.Framework.Command.CommandBusExtension.<ExecuteAsync>d__0.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Command\CommandBusExtension.cs:line 15
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at SEOP.Framework.Infrastructure.ExceptionManager.<ProcessAsync>d__1`1.MoveNext() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Framework\Infrastructure\ExceptionManager.cs:line 66
+
+2016-08-10 09:53:59,164 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:916 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,201 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:917 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,206 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:918 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,211 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:919 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,211 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3091 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,211 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3092 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,212 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3093 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,213 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3094 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,216 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3095 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,217 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:920 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,218 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:921 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,222 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3096 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,224 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:922 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,225 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3097 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,227 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:923 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,229 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3098 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,232 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic  Partition:0 offset:924 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 09:53:59,234 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - exception during CommitOffsets: Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent  Partition:0 offset:3099 Exception:Exception Message: The given key was not present in the dictionary.
+Source: mscorlib
+Stack Trace:
+    at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 230
+ 
+
+2016-08-10 10:07:51,314 ERROR ZKRebalancerListener - error when rebalance: Exception Message: No leader available for partitions 0 on topic MyCommand
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.AddPartitionTopicInfo(ZKGroupTopicDirs topicDirs, String partition, String topic, String consumerThreadId) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 491
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.ProcessPartition(ZKGroupTopicDirs topicDirs, String partition, String topic, String consumerThreadId, List`1 curConsumers, List`1 curPartitions, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 394
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 350
+
+
+2016-08-10 10:07:51,314 ERROR ZKRebalancerListener - Rebalance return false, will retry.  
+
+2016-08-10 10:07:51,610 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:07:52,618 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:07:53,625 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:07:54,635 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:07:55,646 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:07:56,655 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:07:57,665 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:07:58,677 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:07:59,686 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:08:00,697 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:08:01,707 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:08:02,717 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:08:03,728 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:08:04,738 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:08:05,749 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:08:06,779 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:08:07,813 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:08:08,823 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:08:09,834 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:08:10,844 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:08:11,858 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:08:12,875 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:08:13,886 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:08:14,898 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:08:15,908 ERROR ZKRebalancerListener - Exception in rebalance. Will retry after 1000 ms. Exception occurred during rebalance Exception Message: Exception of type 'Kafka.Client.Exceptions.NoPartitionsForTopicException' was thrown.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Utils.ZkUtils.GetPartitionsForTopics(IZooKeeperClient zkClient, IEnumerable`1 topics) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 149
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.Rebalance(Cluster cluster, CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 280
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.SyncedRebalance(CancellationTokenSource cancellationTokenSource) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 227
+ for consumer MyCommand.0_QueueConsumer_636063908288701416
+
+2016-08-10 10:10:58,517 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/10/2016 02:10:58
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:MyCommand PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/10 2:10:58
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-5-131152686510895940
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-10 10:10:58,629 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/10/2016 02:10:58
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:MyCommand PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/10 2:10:58
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-5-131152686510895940
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-10 10:10:58,834 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/10/2016 02:10:58
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:MyCommand PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/10 2:10:58
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-5-131152686510895940
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-10 10:10:59,239 ERROR DefaultCallbackHandler - Failed to send messages after 3 tries. FailedProducerDatas not empty. Success Count:0 Failed Count: 1.
+================Failed sent message key: Topic: MyCommand Key: 
+================Failed Detail: Broker:-1,Topic:MyCommand PartitionID:1,Error:NotLeaderForPartitionCode Offset:0 	
+================ProduceDispatchSeralizeResult Internal exceptions: 1   0 th:No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:MyCommand PartitionID:1     at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211 KafkaNET.Library 
+ 
+
+2016-08-10 10:10:59,240 ERROR KafkaClient - Create topic MyCommand failed
+
+Kafka.Client.Producers.FailedToSendMessageException`1[System.String]: Failed to send messages after 3 tries. FailedProducerDatas not empty. Success Count:0 Failed Count: 1.
+================Failed sent message key: Topic: MyCommand Key: 
+================Failed Detail: Broker:-1,Topic:MyCommand PartitionID:1,Error:NotLeaderForPartitionCode Offset:0 	
+================ProduceDispatchSeralizeResult Internal exceptions: 1   0 th:No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:MyCommand PartitionID:1     at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211 KafkaNET.Library 
+ 
+   at Kafka.Client.Producers.DefaultCallbackHandler`2.Handle(IEnumerable`1 events) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 123
+   at Kafka.Client.Producers.Producer`2.Send(IEnumerable`1 data) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\Producer.cs:line 81
+   at Kafka.Client.Producers.Producer`2.Send(ProducerData`2 data) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\Producer.cs:line 98
+   at SEOP.MessageQueue.MSKafka.KafkaClient.CreateTopic(String topic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\SEOP.MessageQueue.Kafka\KafkaClient.cs:line 92
+2016-08-10 15:30:35,813 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/10/2016 07:30:35
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:Classic.MyCommand PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/10 7:30:35
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131152878246244344
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-10 15:30:36,000 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/10/2016 07:30:36
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:Classic.MyCommand PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/10 7:30:36
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131152878246244344
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-10 15:30:36,226 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/10/2016 07:30:36
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:Classic.MyCommand PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/10 7:30:36
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131152878246244344
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-10 15:30:36,635 ERROR DefaultCallbackHandler - Failed to send messages after 3 tries. FailedProducerDatas not empty. Success Count:0 Failed Count: 1.
+================Failed sent message key: Topic: Classic.MyCommand Key: 
+================Failed Detail: Broker:-1,Topic:Classic.MyCommand PartitionID:1,Error:NotLeaderForPartitionCode Offset:0 	
+================ProduceDispatchSeralizeResult Internal exceptions: 1   0 th:No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:Classic.MyCommand PartitionID:1     at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211 KafkaNET.Library 
+ 
+
+2016-08-10 15:30:36,656 ERROR KafkaClient - Create topic Classic.MyCommand failed
+
+Kafka.Client.Producers.FailedToSendMessageException`1[System.String]: Failed to send messages after 3 tries. FailedProducerDatas not empty. Success Count:0 Failed Count: 1.
+================Failed sent message key: Topic: Classic.MyCommand Key: 
+================Failed Detail: Broker:-1,Topic:Classic.MyCommand PartitionID:1,Error:NotLeaderForPartitionCode Offset:0 	
+================ProduceDispatchSeralizeResult Internal exceptions: 1   0 th:No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:Classic.MyCommand PartitionID:1     at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211 KafkaNET.Library 
+ 
+   at Kafka.Client.Producers.DefaultCallbackHandler`2.Handle(IEnumerable`1 events) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 123
+   at Kafka.Client.Producers.Producer`2.Send(IEnumerable`1 data) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\Producer.cs:line 81
+   at Kafka.Client.Producers.Producer`2.Send(ProducerData`2 data) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\Producer.cs:line 98
+   at SEOP.MessageQueue.MSKafka.KafkaClient.CreateTopic(String topic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\SEOP.MessageQueue.Kafka\KafkaClient.cs:line 92
+2016-08-10 15:30:36,719 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - Path /consumers/Classic.MyCommand.0/offsets/Classic.MyCommand not exists on zookeeper 192.168.99.60:2181, maybe the consumer group hasn't commit once yet. 
+
