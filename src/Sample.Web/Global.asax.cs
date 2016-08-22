@@ -13,6 +13,7 @@ using SEOP.Framework.MessageQueue;
 using SEOP.Framework.Message;
 using SEOP.Framework.Command;
 using Sample.Domain;
+using System.Threading;
 
 namespace Sample
 {
@@ -35,25 +36,26 @@ namespace Sample
                              //.UseNoneLogger()
                              .UseLog4Net()
                              .UseMessageQueue(appName)
-                             .UseKafka("192.168.99.60:2181")
-                             .UseCommandBus() 
+                             .UseKafka("localhost:2181")
+                             .UseCommandBus(appName)
                              .UseMessagePublisher(topic);
 
                 ErrorCodeDictionaryInitializer.Init();
 
+                _messagePublisher = MessageQueueFactory.GetMessagePublisher();
+                _messagePublisher.Start();
 
                 _commandBus = MessageQueueFactory.GetCommandBus();
                 _commandBus.Start();
 
-                _commandConsumer = MessageQueueFactory.CreateCommandConsumer(queue, "commandHandlerProvider");
+                _commandConsumer = MessageQueueFactory.CreateCommandConsumer(queue, appName, "commandHandlerProvider");
                 _commandConsumer.Start();
 
-                _messagePublisher = MessageQueueFactory.GetMessagePublisher();
-                _messagePublisher.Start();
+             
 
                 var subscribedTopic = $"{appName}.{topic}";
                 // 创建事件订阅器并启动开始消费消息
-                var eventSubscriber = MessageQueueFactory.CreateEventSubscriber(subscribedTopic, subscription, "eventHandlerProvider");
+                var eventSubscriber = MessageQueueFactory.CreateEventSubscriber(subscribedTopic, subscription, appName, "eventHandlerProvider");
                 eventSubscriber.Start();
 
                 AreaRegistration.RegisterAllAreas();
@@ -72,9 +74,9 @@ namespace Sample
 
         void Application_End(object sender, EventArgs e)
         {
-            _messagePublisher.Stop();
-            _commandBus.Stop();
             _commandConsumer.Stop();
+            _commandBus.Stop();
+            _messagePublisher.Stop();
             IoCFactory.Instance.CurrentContainer.Dispose();
         }
     }

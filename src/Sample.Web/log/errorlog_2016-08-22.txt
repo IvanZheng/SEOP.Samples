@@ -1,0 +1,615 @@
+2016-08-22 10:28:32,407 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/22/2016 02:28:32
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/22 2:28:32
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131163065026515261
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-22 10:28:32,534 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/22/2016 02:28:32
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/22 2:28:32
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131163065026515261
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-22 10:28:32,739 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/22/2016 02:28:32
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/22 2:28:32
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131163065026515261
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-22 10:28:33,145 ERROR DefaultCallbackHandler - Failed to send messages after 3 tries. FailedProducerDatas not empty. Success Count:0 Failed Count: 1.
+================Failed sent message key: Topic: ECOEDU-IVAN-PC.ClassicApp.replyTopic Key: 
+================Failed Detail: Broker:-1,Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic PartitionID:1,Error:NotLeaderForPartitionCode Offset:0 	
+================ProduceDispatchSeralizeResult Internal exceptions: 1   0 th:No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic PartitionID:1     at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211 KafkaNET.Library 
+ 
+
+2016-08-22 10:28:33,146 ERROR KafkaClient - Create topic ECOEDU-IVAN-PC.ClassicApp.replyTopic failed
+
+Kafka.Client.Producers.FailedToSendMessageException`1[System.String]: Failed to send messages after 3 tries. FailedProducerDatas not empty. Success Count:0 Failed Count: 1.
+================Failed sent message key: Topic: ECOEDU-IVAN-PC.ClassicApp.replyTopic Key: 
+================Failed Detail: Broker:-1,Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic PartitionID:1,Error:NotLeaderForPartitionCode Offset:0 	
+================ProduceDispatchSeralizeResult Internal exceptions: 1   0 th:No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:ECOEDU-IVAN-PC.ClassicApp.replyTopic PartitionID:1     at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211 KafkaNET.Library 
+ 
+   at Kafka.Client.Producers.DefaultCallbackHandler`2.Handle(IEnumerable`1 events) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 123
+   at Kafka.Client.Producers.Producer`2.Send(IEnumerable`1 data) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\Producer.cs:line 81
+   at Kafka.Client.Producers.Producer`2.Send(ProducerData`2 data) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\Producer.cs:line 98
+   at SEOP.MessageQueue.MSKafka.KafkaClient.CreateTopic(String topic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\SEOP.MessageQueue.Kafka\KafkaClient.cs:line 97
+2016-08-22 10:28:33,234 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/22/2016 02:28:33
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:Classic.MyCommand PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/22 2:28:33
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131163065026515261
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-22 10:28:33,353 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/22/2016 02:28:33
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:Classic.MyCommand PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/22 2:28:33
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131163065026515261
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-22 10:28:33,558 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/22/2016 02:28:33
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:Classic.MyCommand PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/22 2:28:33
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131163065026515261
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-22 10:28:33,960 ERROR DefaultCallbackHandler - Failed to send messages after 3 tries. FailedProducerDatas not empty. Success Count:0 Failed Count: 1.
+================Failed sent message key: Topic: Classic.MyCommand Key: 
+================Failed Detail: Broker:-1,Topic:Classic.MyCommand PartitionID:1,Error:NotLeaderForPartitionCode Offset:0 	
+================ProduceDispatchSeralizeResult Internal exceptions: 1   0 th:No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:Classic.MyCommand PartitionID:1     at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211 KafkaNET.Library 
+ 
+
+2016-08-22 10:28:33,960 ERROR KafkaClient - Create topic Classic.MyCommand failed
+
+Kafka.Client.Producers.FailedToSendMessageException`1[System.String]: Failed to send messages after 3 tries. FailedProducerDatas not empty. Success Count:0 Failed Count: 1.
+================Failed sent message key: Topic: Classic.MyCommand Key: 
+================Failed Detail: Broker:-1,Topic:Classic.MyCommand PartitionID:1,Error:NotLeaderForPartitionCode Offset:0 	
+================ProduceDispatchSeralizeResult Internal exceptions: 1   0 th:No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:Classic.MyCommand PartitionID:1     at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211 KafkaNET.Library 
+ 
+   at Kafka.Client.Producers.DefaultCallbackHandler`2.Handle(IEnumerable`1 events) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 123
+   at Kafka.Client.Producers.Producer`2.Send(IEnumerable`1 data) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\Producer.cs:line 81
+   at Kafka.Client.Producers.Producer`2.Send(ProducerData`2 data) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\Producer.cs:line 98
+   at SEOP.MessageQueue.MSKafka.KafkaClient.CreateTopic(String topic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\SEOP.MessageQueue.Kafka\KafkaClient.cs:line 97
+2016-08-22 10:28:34,011 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/22/2016 02:28:34
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/22 2:28:34
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131163065026515261
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-22 10:28:34,124 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/22/2016 02:28:34
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/22 2:28:34
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131163065026515261
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-22 10:28:34,327 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/22/2016 02:28:34
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/22 2:28:34
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131163065026515261
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-22 10:28:34,729 ERROR DefaultCallbackHandler - Failed to send messages after 3 tries. FailedProducerDatas not empty. Success Count:0 Failed Count: 1.
+================Failed sent message key: Topic: ECOEDU-IVAN-PC.ClassicApp.MyEvent Key: 
+================Failed Detail: Broker:-1,Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent PartitionID:1,Error:NotLeaderForPartitionCode Offset:0 	
+================ProduceDispatchSeralizeResult Internal exceptions: 1   0 th:No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent PartitionID:1     at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211 KafkaNET.Library 
+ 
+
+2016-08-22 10:28:34,729 ERROR KafkaClient - Create topic ECOEDU-IVAN-PC.ClassicApp.MyEvent failed
+
+Kafka.Client.Producers.FailedToSendMessageException`1[System.String]: Failed to send messages after 3 tries. FailedProducerDatas not empty. Success Count:0 Failed Count: 1.
+================Failed sent message key: Topic: ECOEDU-IVAN-PC.ClassicApp.MyEvent Key: 
+================Failed Detail: Broker:-1,Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent PartitionID:1,Error:NotLeaderForPartitionCode Offset:0 	
+================ProduceDispatchSeralizeResult Internal exceptions: 1   0 th:No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:ECOEDU-IVAN-PC.ClassicApp.MyEvent PartitionID:1     at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211 KafkaNET.Library 
+ 
+   at Kafka.Client.Producers.DefaultCallbackHandler`2.Handle(IEnumerable`1 events) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 123
+   at Kafka.Client.Producers.Producer`2.Send(IEnumerable`1 data) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\Producer.cs:line 81
+   at Kafka.Client.Producers.Producer`2.Send(ProducerData`2 data) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\Producer.cs:line 98
+   at SEOP.MessageQueue.MSKafka.KafkaClient.CreateTopic(String topic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\SEOP.MessageQueue.Kafka\KafkaClient.cs:line 97
+2016-08-22 10:28:49,137 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/22/2016 02:28:49
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:MyEvent PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/22 2:28:49
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131163065026515261
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-22 10:28:49,248 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/22/2016 02:28:49
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:MyEvent PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/22 2:28:49
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131163065026515261
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-22 10:28:49,450 ERROR DefaultCallbackHandler - 
+An exception of type 'Kafka.Client.Exceptions.NoLeaderForPartitionException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+08/22/2016 02:28:49
+Type : Kafka.Client.Exceptions.NoLeaderForPartitionException, KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Message : No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:MyEvent PartitionID:1 
+Source : KafkaNET.Library
+Help link : 
+PartitionId : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Kafka.Client.Producers.ProducerSendResult`1[System.Collections.Generic.IEnumerable`1[System.Tuple`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Responses.ProducerResponseStatus]]] Send(Int32, System.Collections.Generic.IDictionary`2[Kafka.Client.Responses.TopicAndPartition,Kafka.Client.Messages.BufferedMessageSet])
+HResult : -2146233088
+Stack Trace :    at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211
+
+Additional Info:
+
+MachineName : ECOEDU-IVAN-PC
+TimeStamp : 2016/8/22 2:28:49
+FullName : KafkaNET.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+AppDomainName : /LM/W3SVC/4/ROOT-1-131163065026515261
+ThreadIdentity : 
+WindowsIdentity : ECOEDU-IVAN-PC\yvonn_000
+
+
+2016-08-22 10:28:49,852 ERROR DefaultCallbackHandler - Failed to send messages after 3 tries. FailedProducerDatas not empty. Success Count:0 Failed Count: 1.
+================Failed sent message key: Topic: MyEvent Key: 
+================Failed Detail: Broker:-1,Topic:MyEvent PartitionID:1,Error:NotLeaderForPartitionCode Offset:0 	
+================ProduceDispatchSeralizeResult Internal exceptions: 1   0 th:No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:MyEvent PartitionID:1     at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211 KafkaNET.Library 
+ 
+
+2016-08-22 10:28:49,852 ERROR KafkaClient - Create topic MyEvent failed
+
+Kafka.Client.Producers.FailedToSendMessageException`1[System.String]: Failed to send messages after 3 tries. FailedProducerDatas not empty. Success Count:0 Failed Count: 1.
+================Failed sent message key: Topic: MyEvent Key: 
+================Failed Detail: Broker:-1,Topic:MyEvent PartitionID:1,Error:NotLeaderForPartitionCode Offset:0 	
+================ProduceDispatchSeralizeResult Internal exceptions: 1   0 th:No leader for some partition(s).  And it try write to on invalid broker -1.  The assigned TopicAndPartition for the data is :Topic:MyEvent PartitionID:1     at Kafka.Client.Producers.DefaultCallbackHandler`2.Send(Int32 brokerId, IDictionary`2 messagesPerTopic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 211 KafkaNET.Library 
+ 
+   at Kafka.Client.Producers.DefaultCallbackHandler`2.Handle(IEnumerable`1 events) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\DefaultCallbackHandler.cs:line 123
+   at Kafka.Client.Producers.Producer`2.Send(IEnumerable`1 data) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\Producer.cs:line 81
+   at Kafka.Client.Producers.Producer`2.Send(ProducerData`2 data) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Producers\Producer.cs:line 98
+   at SEOP.MessageQueue.MSKafka.KafkaClient.CreateTopic(String topic) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\SEOP.MessageQueue.Kafka\KafkaClient.cs:line 97
+2016-08-22 10:37:00,880 ERROR ZKRebalancerListener - Rebalance return false, will retry.  
+
+2016-08-22 10:37:02,882 ERROR ZKRebalancerListener - Rebalance return false, will retry.  
+
+2016-08-22 10:37:03,887 ERROR ZKRebalancerListener - Rebalance return false, will retry.  
+
+2016-08-22 10:41:36,487 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x156AFCB2B69008A has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:41:36,669 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x156AFCB2B690088 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:44:56,780 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 410
+
+2016-08-22 10:45:08,372 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 431
+
+2016-08-22 10:45:10,721 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 431
+
+2016-08-22 10:45:10,723 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 431
+
+2016-08-22 10:46:05,271 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE4625E has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:46:05,302 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE4625D has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:46:05,432 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE46261 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:46:05,471 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE46260 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:46:05,571 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE46262 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:46:05,585 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE4625C has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:46:05,693 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 431
+
+2016-08-22 10:46:05,704 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE46263 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:46:05,725 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 431
+
+2016-08-22 10:46:05,860 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 431
+
+2016-08-22 10:46:05,884 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 431
+
+2016-08-22 10:46:06,028 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 431
+
+2016-08-22 10:46:06,030 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 431
+
+2016-08-22 10:46:06,087 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE46264 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:46:10,206 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE4625F has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:46:10,251 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE4625B has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:46:27,432 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 419
+
+2016-08-22 10:46:27,495 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE46268 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:46:27,557 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE4626A has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:46:27,614 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE46265 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:46:27,709 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE4626D has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:46:27,730 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE46266 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:46:28,189 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x155EDFFEBE4626E has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 10:46:30,156 ERROR ZKRebalancerListener - Rebalance operation has been canceled externally by a future rebalance event. Exiting immediately
+
+2016-08-22 10:46:30,178 ERROR ZKRebalancerListener - Rebalance return false, will retry.  
+
+2016-08-22 10:46:31,312 ERROR ZKRebalancerListener - Rebalance operation has been canceled externally by a future rebalance event. Exiting immediately
+
+2016-08-22 10:46:31,313 ERROR ZKRebalancerListener - Rebalance return false, will retry.  
+
+2016-08-22 10:46:32,951 ERROR Kafka.Client.ZooKeeperIntegration.ZooKeeperClient - Failed to handle state changed event.  Exception Message: Object reference not set to an instance of an object.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Consumers.Fetcher.Shutdown() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\Fetcher.cs:line 93
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.ShutdownFetchers() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 182
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKSessionExpireListener`1.HandleStateChanged(ZooKeeperStateChangedEventArgs args) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKSessionExpireListener.cs:line 70
+   at Kafka.Client.ZooKeeperIntegration.ZooKeeperClient.ZooKeeperEventHandler`1.Invoke(T args)
+   at Kafka.Client.ZooKeeperIntegration.ZooKeeperClient.OnStateChanged(ZooKeeperStateChangedEventArgs e) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\ZooKeeperClient.Watcher.cs:line 615
+
+
+2016-08-22 11:32:39,902 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 431
+
+2016-08-22 11:32:50,672 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x156AFCB2B690096 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 11:33:38,555 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x156AFCB2B690090 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 11:33:38,602 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x156AFCB2B690092 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 11:33:43,821 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x156AFCB2B69008E has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 11:37:09,773 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 381
+
+2016-08-22 11:37:11,452 ERROR Kafka.Client.Consumers.ZookeeperConsumerConnector - error in CommitOffsets UpdatePersistentPath : Exception Message: The request    R/consumers/ECOEDU-IVAN-PC.ClassicApp.Classic.MyCommand/offsets/Classic.MyCommand/3   125???? timed out while waiting for a response from the server.
+Source: ZooKeeperNet
+Stack Trace:
+    at ZooKeeperNet.ClientConnection.SubmitRequest(RequestHeader h, IRecord request, IRecord response, WatchRegistration watchRegistration) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnection.cs:line 353
+   at ZooKeeperNet.ZooKeeper.SetData(String path, Byte[] data, Int32 version) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ZooKeeper.cs:line 740
+   at Kafka.Client.ZooKeeperIntegration.ZooKeeperConnection.WriteData(String path, Byte[] data, Int32 version) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\ZooKeeperConnection.cs:line 289
+   at Kafka.Client.ZooKeeperIntegration.ZooKeeperClient.<>c__DisplayClass38_0.<WriteData>b__0() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\ZooKeeperClient.cs:line 647
+   at Kafka.Client.ZooKeeperIntegration.ZooKeeperClient.RetryUntilConnected[T](Func`1 callback) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\ZooKeeperClient.cs:line 327
+   at Kafka.Client.ZooKeeperIntegration.ZooKeeperClient.WriteData(String path, Object data, Int32 expectedVersion) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\ZooKeeperClient.cs:line 644
+   at Kafka.Client.ZooKeeperIntegration.ZooKeeperClient.WriteData(String path, Object data) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\ZooKeeperClient.cs:line 620
+   at Kafka.Client.Utils.ZkUtils.UpdatePersistentPath(IZooKeeperClient zkClient, String path, String data) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Utils\ZkUtils.cs:line 79
+   at Kafka.Client.Consumers.ZookeeperConsumerConnector.CommitOffset(String topic, Int32 partition, Int64 offset, Boolean setPosition) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\ZookeeperConsumerConnector.cs:line 237
+
+
+2016-08-22 11:39:25,380 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 431
+
+2016-08-22 11:39:25,381 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 431
+
+2016-08-22 11:39:25,380 ERROR ZooKeeperNet.ClientConnectionRequestProducer - System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 431
+
+2016-08-22 11:39:25,383 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x156AFCB2B690094 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 11:39:25,388 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x156AFCB2B690091 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 11:39:25,392 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x156AFCB2B690093 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 11:39:25,402 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x156AFCB2B690095 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 11:39:25,407 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x156AFCB2B690097 has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 11:39:25,410 ERROR ZooKeeperNet.ClientConnectionRequestProducer - ZooKeeperNet.SessionExpiredException: Unable to reconnect to ZooKeeper service, session 0x156AFCB2B69008F has expired
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReadConnectResult(Byte[] content) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 522
+   at ZooKeeperNet.ClientConnectionRequestProducer.ReceiveAsynch(IAsyncResult ar) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\ZooKeeperNet\ClientConnectionRequestProducer.cs:line 417
+
+2016-08-22 11:39:26,938 ERROR ZKRebalancerListener - Rebalance operation has been canceled externally by a future rebalance event. Exiting immediately
+
+2016-08-22 11:39:26,938 ERROR ZKRebalancerListener - Rebalance return false, will retry.  
+
+2016-08-22 11:39:27,948 ERROR ZKRebalancerListener - Rebalance operation has been canceled externally by a future rebalance event. Exiting immediately
+
+2016-08-22 11:39:27,948 ERROR ZKRebalancerListener - Rebalance return false, will retry.  
+
+2016-08-22 11:39:29,455 ERROR Kafka.Client.ZooKeeperIntegration.ZooKeeperClient - Failed to handle state changed event.  Exception Message: Object reference not set to an instance of an object.
+Source: KafkaNET.Library
+Stack Trace:
+    at Kafka.Client.Consumers.Fetcher.Shutdown() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\Consumers\Fetcher.cs:line 93
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKRebalancerListener`1.ShutdownFetchers() in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKRebalancerListener.cs:line 182
+   at Kafka.Client.ZooKeeperIntegration.Listeners.ZKSessionExpireListener`1.HandleStateChanged(ZooKeeperStateChangedEventArgs args) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\Listeners\ZKSessionExpireListener.cs:line 70
+   at Kafka.Client.ZooKeeperIntegration.ZooKeeperClient.ZooKeeperEventHandler`1.Invoke(T args)
+   at Kafka.Client.ZooKeeperIntegration.ZooKeeperClient.OnStateChanged(ZooKeeperStateChangedEventArgs e) in C:\Workspace\EcoEdu-Rd\RD014_SEOP\Code\SEOP.Framework\master\SEOP.Plugins\ThirdParties\KafkaNET.Library\ZooKeeperIntegration\ZooKeeperClient.Watcher.cs:line 615
+
+

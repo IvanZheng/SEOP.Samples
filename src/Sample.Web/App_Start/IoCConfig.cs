@@ -59,8 +59,7 @@ namespace Sample.App_Start
             // TODO: Register your types here
             // container.RegisterType<IProductRepository, ProductRepository>();
 
-            Configuration.Instance
-                                   .RegisterEntityFrameworkComponents(container, lifetime);
+            Configuration.Instance.RegisterEntityFrameworkComponents(container, lifetime);
             container.RegisterType<ISampleRepository, SampleRepository>(lifetime);
             container.RegisterType<SampleContext, SampleContext>(lifetime);
 

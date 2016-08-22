@@ -39,8 +39,8 @@
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="SEOP.Framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SEOP.Framework.1.0.0\lib\net45\SEOP.Framework.dll</HintPath>
+    <Reference Include="SEOP.Framework, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOP.Framework.1.0.3\lib\net45\SEOP.Framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
