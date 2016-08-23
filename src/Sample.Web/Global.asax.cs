@@ -33,8 +33,6 @@ namespace Sample
                 string appName = $"{Environment.MachineName}.ClassicApp";
                 string subscription = "subscription";
                 Configuration.Instance
-                             .RegisterDefaultEventBus()
-                             //.UseNoneLogger()
                              .UseLog4Net()
                              .UseMessageQueue(appName)
                              .UseKafka("localhost:2181")

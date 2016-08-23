@@ -17,7 +17,8 @@ namespace Sample.App_Start
                          //.UseAutofacContainer()
                          //.RegisterAssemblyTypes("Sample.Web", "Sample.Application")
                          .UseUnityContainer()
-                         .UseUnityMvc() ;
+                         .UseUnityMvc()
+                         .RegisterCommonComponents();
             
             var container = IoCFactory.Instance.CurrentContainer;
             RegisterTypes(container, Lifetime.Hierarchical);
