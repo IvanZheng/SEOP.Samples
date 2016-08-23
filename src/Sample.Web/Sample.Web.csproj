@@ -69,7 +69,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="KafkaNET.Library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SEOP.MQS.Kafka.1.0.3\lib\net45\KafkaNET.Library.dll</HintPath>
+      <HintPath>..\packages\SEOP.MQS.Kafka.1.0.4\lib\net45\KafkaNET.Library.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
@@ -141,8 +141,8 @@
       <HintPath>..\packages\SEOP.AspNet.1.0.0\lib\net45\SEOP.AspNet.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="SEOP.EntityFramework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SEOP.EntityFramework.1.0.0\lib\net45\SEOP.EntityFramework.dll</HintPath>
+    <Reference Include="SEOP.EntityFramework, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOP.EntityFramework.1.0.1\lib\net45\SEOP.EntityFramework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="SEOP.Framework, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
@@ -157,8 +157,8 @@
       <HintPath>..\packages\SEOP.Log4Net.1.0.0\lib\net45\SEOP.Log4Net.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="SEOP.MessageQueue.MSKafka, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SEOP.MQS.Kafka.1.0.3\lib\net45\SEOP.MessageQueue.MSKafka.dll</HintPath>
+    <Reference Include="SEOP.MessageQueue.MSKafka, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOP.MQS.Kafka.1.0.4\lib\net45\SEOP.MessageQueue.MSKafka.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="SEOP.Unity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -222,7 +222,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="ZooKeeperNet, Version=3.3.4.9, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SEOP.MQS.Kafka.1.0.3\lib\net45\ZooKeeperNet.dll</HintPath>
+      <HintPath>..\packages\SEOP.MQS.Kafka.1.0.4\lib\net45\ZooKeeperNet.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>

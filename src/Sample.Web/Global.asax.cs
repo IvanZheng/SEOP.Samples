@@ -22,6 +22,7 @@ namespace Sample
         IMessagePublisher _messagePublisher;
         ICommandBus _commandBus;
         IMessageConsumer _commandConsumer;
+        IMessageConsumer _eventSubscriber;
 
         void Application_Start(object sender, EventArgs e)
         {
@@ -55,8 +56,8 @@ namespace Sample
 
                 var subscribedTopic = $"{appName}.{topic}";
                 // 创建事件订阅器并启动开始消费消息
-                var eventSubscriber = MessageQueueFactory.CreateEventSubscriber(subscribedTopic, subscription, appName, "eventHandlerProvider");
-                eventSubscriber.Start();
+                _eventSubscriber = MessageQueueFactory.CreateEventSubscriber(subscribedTopic, subscription, appName, "eventHandlerProvider");
+                _eventSubscriber.Start();
 
                 AreaRegistration.RegisterAllAreas();
                 GlobalConfiguration.Configure(WebApiConfig.Register);
@@ -74,6 +75,7 @@ namespace Sample
 
         void Application_End(object sender, EventArgs e)
         {
+            _eventSubscriber.Stop();
             _commandConsumer.Stop();
             _commandBus.Stop();
             _messagePublisher.Stop();
