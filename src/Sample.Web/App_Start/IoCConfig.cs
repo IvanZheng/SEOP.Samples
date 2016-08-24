@@ -51,19 +51,15 @@ namespace Sample.App_Start
         /// <summary>Registers the type mappings with the Unity container.</summary>
         /// <param name="container">The unity container to configure.</param>
         /// <remarks>There is no need to register concrete types such as controllers or API controllers (unless you want to 
-        /// change the defaults), as Unity allows resolving a concrete type even if it was not previously registered.</remarks>
+        /// change the defaults), as Container allows resolving a concrete type even if it was not previously registered.</remarks>
         public static void RegisterTypes(IContainer container, Lifetime lifetime)
         {
-            // NOTE: To load from web.config uncomment the line below. Make sure to add a Microsoft.Practices.Unity.Configuration to the using statements.
-            // container.LoadConfiguration();
-
             // TODO: Register your types here
             // container.RegisterType<IProductRepository, ProductRepository>();
 
             Configuration.Instance.RegisterEntityFrameworkComponents(container, lifetime);
             container.RegisterType<ISampleRepository, SampleRepository>(lifetime);
             container.RegisterType<SampleContext, SampleContext>(lifetime);
-
         }
     }
 }
